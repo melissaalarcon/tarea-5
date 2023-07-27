@@ -59,23 +59,26 @@ h4{
     font-size: 12px;
     display: flex;
 }
+.ficha:hover{
+    background-color: rgb(251, 239, 226);
+}
 .extras{
     margin-left: -10px;
     margin-bottom: 90px;
-    margin-top: -300px;
+    margin-top: -350px;
     width: 350px;
     height: 100px;
     box-sizing: border-box;
     top: 100%;
     position: absolute;
 }
+#container{
+    display: flex;
+}
 .secondbox{
     display: flex;
     justify-content: right;
     margin-left: 30px;
-}
-.experience{
-    box-sizing: border-box;
 }
 p{
     color: rgb(116, 53, 28);
@@ -95,7 +98,7 @@ li{
     font-family: 'Raleway', sans-serif;
     padding-left: var(--icon-space);
 }
-.data:before{
+.data::before{
     content: "\f00c"; /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;
